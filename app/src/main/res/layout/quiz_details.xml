@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="8dp"
+        android:background="#493B3B">
+
+        <TextView android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:text="Time :"/>
+
+        <TextView android:id="@+id/txt_show_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="40dp"
+            android:padding="4dp"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:text="00:00:10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Score:"
+            android:padding="4dp"
+            android:layout_below="@id/text_time"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/txt_show_score"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/text_time"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:text="Submit"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_backgrond"
+            android:padding="8dp"
+            android:textSize="19sp"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="8dp"
+            android:onClick="ShowScore"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JavaQiuz</string>
+
+
+    <!--Questions-->
+    <string name="q1">1. Which of the following is syntactically wrong ?</string>
+    <string name="q2">2. Which of the following is syntactically correct ? </string>
+    <string name="q3">3. Which of the following is true regarding source code file</string>
+    <string name="q4">4. What is true regarding following code in Member.java\n\n public class Student{}\n public class ABC{}</string>
+    <string name="q5">5. </string>
+    <string name="q6">6.  Which two are valid declaration of a float?  </string>
+    <string name="q7">7. what is the size of Char in java?</string>
+</resources>
